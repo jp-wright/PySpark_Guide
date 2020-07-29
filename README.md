@@ -1707,7 +1707,7 @@ reccomendations.orderBy('prediction',ascending=False).show()
 
 
 ### Natural Language Processing (NLP)
-I'm not supremely interested in NLP at the present time, so this section is simply going to be a pasting of Jose's course notes and example code.  NLP has a number of approaches and toolkits.  In Python, NLTK is the _de facto_ library to start with, though I am sure there are now more advanced ones available.
+NLP has a number of approaches and toolkits.  In Python, NLTK is the _de facto_ library to start with, though I am sure there are now more advanced ones available.
 
 One of the hallmarks of NLP is that text / written data can be much messier than numerical data, and as a result there is frequently significant overhead in preparing the data for modeling.  A good example is "The dog ran to the corner" vs. "Later, the dog RAN to the corner and grabbed his bone."  Depending on how you prepare the data, and which model utilities you use, these two sentences could be considered as identical, highly similar, marginally similar, or completely different.
 
